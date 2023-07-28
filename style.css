@@ -1,0 +1,213 @@
+
+.header {
+    font-size: 36px;
+    text-align: center;
+  }
+  .summer { color: #fcb425; }
+  .fall { color: #ea4b8b; }
+  .winter { color: #7f58af; }
+  .spring { color: #63c5ea; }
+
+.intro {
+    font-family: 'REM';
+    text-align: center;
+    padding: 0.75rem;
+
+}
+
+.intro .byline {
+    font-family: 'Dai Banna SIL';
+    font-size: 24px;
+    font-weight: 200;
+    margin-top: 2em
+}
+
+.intro.medium {
+    font-family: 'REM';
+    font-size: 72px;
+    line-height: 1.2;
+    margin: 0 auto;
+    font-weight: 300;
+    margin: auto;
+    max-width: 2000px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+.header-section {
+    background-image: url("images/header.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+.header-credit {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 20px;
+    background-color: #FFFFFF; 
+    color: #000000;
+    font-family: 'REM';
+}
+
+.header-box {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    padding: 10px 20px;
+    border-radius: 25px;
+  }
+
+body {
+    background-color: white;
+    color: black;
+    background-size: 100%;
+    padding-bottom: 100px;
+    
+  }
+   
+p {
+    
+    margin: 1.5rem 0;
+    font-size: 12px;
+    line-height: 1.7;
+    font-family: 'REM';
+}
+.card{
+    max-width: 20%;
+}
+.chart-notes {
+    font-family: 'REM';
+    font-size: 18px;
+    max-width: 800px;
+    padding: 1rem;
+    /* padding-top: 0rem; */
+    margin: 0 auto;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+}
+  
+.quote{
+    margin: auto;
+    max-width: 800px;
+    font-size: 24px;
+    line-height : 30px;
+    margin-top: 70px;
+    /* border-left: 3px solid #e4b363;
+    padding-left: 15px; */
+
+}
+
+.main-body{
+    font-size: 21px;
+    line-height : 35px;
+    margin: auto;
+    max-width: 800px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.inline-img {
+    /* display: inline-block; */
+    width:40%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 3em;
+    }
+
+.section-header{
+    text-align: center;
+    margin: auto;
+    max-width: 800px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    font-family: 'REM';
+    font-size: 30px;
+    line-height: 1.3;
+    font-weight: 900;
+}
+
+.Sources{
+    padding-top: 60px;
+    max-width: 700px;
+    font-size: 11px;
+    font-family: 'REM';
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+a body {
+    /* background-color: rgba(228, 179, 99, 0.2); */
+    color: black;
+    }
+
+
+a.tweet-link {
+    text-decoration: none;
+    color: black; 
+}
+
+a.tweet-link:hover {
+    text-decoration: underline;
+}
+
+/* d3 chart */
+
+svg {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'REM';
+}
+
+/* Style the tooltip */
+.tooltip {
+    opacity: 0;
+    position: absolute;
+    background-color: white;
+    border: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: 'REM'; /* Set the appropriate font-family */
+  }
+/* CSS for the container and flex layout */
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    align-items: center;
+    font-family:'REM';
+    display: flex;
+    justify-content: center;
+}
+.chart-container {
+    flex: 1;
+    padding-right: 20px; /* Add padding between the chart and legend */
+    width: 100%; /* Set the width to fill the container */
+}
+.legend-container {
+    font-family:'REM';
+    width: 200px;
+    padding-top: 50px; /* Add padding below the chart */
+}
+.legendRect {
+    width: 20px;
+    height: 20px;
+}
+.legendLabels {
+    font-size: 12px;
+}
