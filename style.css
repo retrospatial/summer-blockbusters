@@ -19,7 +19,7 @@
     font-family: 'Dai Banna SIL';
     font-size: 24px;
     font-weight: 200;
-    margin-top: 2em
+    margin-top: 1em
 }
 
 .intro.medium {
@@ -166,7 +166,8 @@ a.tweet-link:hover {
 svg {
     width: 100%;
     max-width: 800px;
-    margin: 0 auto;
+    margin-left: 0;
+    margin-right: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -195,7 +196,9 @@ svg {
     justify-content: center;
 }
 .chart-container {
-    flex: 1;
+    display: flex;
+    justify-content: right;
+    align-items: center;
     padding-right: 20px; /* Add padding between the chart and legend */
     width: 100%; /* Set the width to fill the container */
 }
